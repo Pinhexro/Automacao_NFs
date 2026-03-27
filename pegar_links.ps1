@@ -1,4 +1,4 @@
-$outlook = New-Object -ComObject Outlook.Application
+﻿$outlook = New-Object -ComObject Outlook.Application
 $namespace = $outlook.GetNamespace("MAPI")
 $nomePastaAlvo = "NFs_Pendentes"
 
